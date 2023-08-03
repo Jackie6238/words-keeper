@@ -1,0 +1,25 @@
+<%- include('./partials/header.ejs') -%>
+
+<p>Enter a word and its definition to add it to your collection</p>
+
+<form class="" action="/add" method="post">
+  <div class="form-group mb-3">
+    <label>Spelling</label>
+    <input class="form-control" type="text" name="spelling" />
+  </div>
+  <div class="form-group mb-3">
+    <label>Definition</label>
+    <textarea
+      class="form-control"
+      name="definition"
+      rows="5"
+      cols="30"
+    ></textarea>
+  </div>
+  <button class="btn btn-outline-dark" type="submit" name="button">Add</button>
+</form>
+
+
+
+
+<%- include('./partials/footer.ejs') -%>

@@ -1,0 +1,41 @@
+# Directories
+node_modules/
+dist/
+build/
+out/
+tmp/
+logs/
+coverage/
+
+# Environment files
+.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Log files
+*.log
+
+# Compiled and minified files
+*.min.js
+*.min.css
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# OS-specific files
+# Add these if your project is developed on a specific OS
+# *.swp    (Vim swap files)
+# *.swo    (Vim backup files)
+# *.DS_Store   (Mac OS Finder metadata)
+# thumbs.db    (Windows thumbnail cache)
+
+# Ignore npm-debug.log
+npm-debug.log*
